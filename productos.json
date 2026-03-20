@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Air Street",
+    "precio": 899,
+    "moneda": "MXN",
+    "img": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6"
+  },
+  {
+    "nombre": "Urban Flex",
+    "precio": 1099,
+    "moneda": "MXN",
+    "img": "https://images.unsplash.com/photo-1584735175315-9d5df23be620"
+  },
+  {
+    "nombre": "Runner Pro",
+    "precio": 1299,
+    "moneda": "MXN",
+    "img": "https://images.unsplash.com/photo-1528701800489-20be3c3b66c5"
+  }
+]
