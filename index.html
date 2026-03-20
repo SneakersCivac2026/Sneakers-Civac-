@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneakers Civac - Tenis a tu estilo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Sneakers Civac</h1>
+  <p>Los mejores tenis al mejor precio</p>
+</header>
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#productos">Productos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+<section class="hero" id="inicio">
+  <h2>¡Estrena estilo con Sneakers Civac!</h2>
+</section>
+<main class="container">
+  <h2 id="productos">Productos destacados</h2>
+  <div class="products" id="products-container">
+    <!-- Los productos se cargarán dinámicamente -->
+  </div>
+</main>
+<section id="contacto" class="contact-section">
+  <h2>Contacto</h2>
+  <form id="contact-form">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="email" placeholder="Tu correo electrónico" required>
+    <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+    <div id="form-msg"></div>
+  </form>
+</section>
+<footer>
+  <p>© 2026 Sneakers Civac | Síguenos en redes sociales</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
